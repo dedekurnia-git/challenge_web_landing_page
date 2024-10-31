@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echarm.blink</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">echarm.blink<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#products">products</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+    </header>
+    
+    <section class="home" id="home">
+        <div class="container">
+            <h1>Aesthetic Beads & Cute Keychain</h1>
+            <p>"Temukan pesona aksesoris yang dirancang khusus untuk menyempurnakan gaya Anda. Dari kilauan manik-manik pada gelang dan cincin hingga keunikan gantungan kunci kawat bulu, setiap detail di echarm.blink adalah hasil karya tangan yang penuh arti. Hadirkan sentuhan elegan dan personal dalam setiap penampilan Anda!" </p>
+            <a href="#products" class="btn-primary">Lihat Produk</a>
+
+        </div>
+
+
+        <div id="image-container">
+            <img src="images/beranda1.jpeg" alt="">
+            <img src="images/beranda7.jpeg" alt="">
+            <img src="images/beranda5.jpeg" alt="">
+            <img src="images/beranda6.jpeg" alt="">
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Gelang dan Cincin Manik-Manik</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="images/beranda5.jpeg" alt="Gelang">
+                <h3>Gelang Mutiara</h3>
+                <p>Gelang yang cocok untuk kalian gunakan ketika berlibur ke pantai.</p>
+            </div>
+            <div class="product">
+                <img src="images/beranda3.jpeg" alt="Kalung">
+                <h3>Cincin pinkie</h3>
+                <p>cincin yang cocok untuk pecinta warna pink.</p>
+            </div>
+            <div class="product">
+                <img src="images/beranda4.jpeg" alt="Anting">
+                <h3>Gelang Butterfly</h3>
+                <p>Gelang ini akan membuat anda menjadi lebih percaya diri layaknya orang yang sedang merasakan butterfly era.</p>
+            </div>
+            <div class="product">
+                <img src="images/beranda9.jpeg" alt="Anting">
+                <h3>Cincin Flower</h3>
+                <p>Sebuah cincin lucu dengan berbagai macam bungan diatasnya.</p>
+            </div>
+        </div><br>
+        <h2>Gantungan Kunci</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="images/beranda2.jpeg" alt="Anting">
+                <h3>Flower keychain</h3>
+                <p>Gantungan cantik dengan berbagai macam jenis bunga.</p>
+            </div>
+            <div class="product">
+                <img src="images/beranda6.jpeg" alt="Anting">
+                <h3>Bucket Flower</h3>
+                <p>Gantungan bucket bunga mini yang cantik.</p>
+            </div>
+            <div class="product">
+                <img src="images/beranda11.jpg" alt="Anting">
+                <h3>Cute Keychain</h3>
+                <p>Berbagai macam gantungan kunci yang sangat lucu dan menggemaskan.</p>
+            </div>
+            <div class="product">
+                <img src="images/beranda12.jpg" alt="Anting">
+                <h3>Keychain Mirro</h3>
+                <p>Cermin yang sangat lucu dengan berbagai karakter yang ada dan lebih praktis karena bisa digantung di tas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about"> 
+        <h1 class="heading"><span>about</span> us </h1>
+        <div class="row">
+            <div class="gambar-container">
+                <img src="images/beranda1.jpeg" alt="">
+                <h3>the best seller</h3>
+            </div>
+            <div class="content">
+                <h3>Selamat datang di echarm.blink! </h3>
+                <p>Kami adalah pengrajin lokal yang menghadirkan aksesoris unik dan handmade dengan sentuhan penuh seni. Koleksi kami mencakup gelang dan cincin manik-manik yang beragam serta gantungan kunci dari kawat bulu yang dibuat dengan keahlian dan ketelitian. Kami percaya bahwa setiap aksesoris memiliki cerita dan membawa keindahan tersendiri, mulai dari perpaduan warna manik-manik hingga kerumitan anyaman kawat bulu yang dirancang agar Anda selalu tampil beda. Dengan dedikasi terhadap kualitas dan detail, kami berkomitmen menghadirkan produk yang tidak hanya menarik tetapi juga membawa kesan personal bagi setiap penggunanya. Terima kasih telah memilih produk lokal yang penuh kreativitas dan keunikan – bersama, kita mendukung karya seni yang otentik dan penuh makna!</p>
+                <a href="#" class="btn-primary">learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <form action="/submit_contact" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer id="footer" class="p-3 bg-dark">
+        <div class="row">
+            <div class="col">
+                <!-- Kosong jika diperlukan tambahan -->
+            </div>
+        </div>
+        <div class="row p-3">
+    
+            <!-- Hak Cipta -->
+            <div class="d-flex justify-content-center align-items-center mt-3">
+                <p class="text-light">Copyright © <a href="https://example.com" class="text-decoration-none text-light">Dede Kurnia Putri</a> 2024</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+
+</body>
+
+</html>
